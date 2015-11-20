@@ -17,7 +17,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8"/>
-        <title>Sistema de Evaluacion1111111</title>
+        <title>Sistema de Evaluacion</title>
 
         <link rel="stylesheet" href="resources/css/layout.css" type="text/css" media="screen" />
         <script src="resources/js/jquery-2.1.3.min.js" type="text/javascript"></script>
