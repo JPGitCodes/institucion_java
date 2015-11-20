@@ -24,11 +24,11 @@ public class PeticionesServlet extends HttpServlet {
         switch (operacion) {
             case "obtenerCarrerasDeSede":                
                 LinkedList<Carrera> lista = this.obtenerCarrerasDeSede(request);
-                String respuesta = "";
+                String carrerasOptionHtml = "";
                 for (int i = 0; i < lista.size(); i++) {
-                    respuesta += "<option value='" + lista.get(i).getId() + "'>" + lista.get(i).getCarrera() + "</option>";
+                    carrerasOptionHtml += "<option value='" + lista.get(i).getId() + "'>" + lista.get(i).getCarrera() + "</option>";
                 }
-                out.println(respuesta);
+                out.println(carrerasOptionHtml);
                 break;
         }
     }
